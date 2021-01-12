@@ -1,3 +1,74 @@
-h1{
-  font-size: 20px;
+body{
+  background-color: white;
+}
+
+#title{
+  background-color: cadetblue;
+  text-align: center;
+  color:#CCCC66;
+}
+
+#title h1{
+  margin:0;
+}
+
+#title p{
+  margin:0;
+}
+
+#main{
+  width:500px;
+  margin:16px auto;
+}
+
+#time{
+ background-color: #CC0000;
+ font-size: 50px;
+ text-align: center;
+ margin:10% 0;
+}
+
+#numbers{
+  list-style: none;
+  margin:0;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 4px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#numbers li{
+  background-color: aquamarine;
+  width:80px;
+  height:80px;
+  margin:8px;
+  cursor: pointer;
+  border-radius: 4px;
+  line-height: 80px;
+  text-align:center;
+  box-shadow: 0 4px 0 #0088cc;
+}
+
+#numbers li.pressed{
+  background-color: #ccc;
+  box-shadow: none;
+  margin-top: 9px;
+  margin-bottom: 1px;
+}
+
+#btn{
+  cursor:pointer;
+  user-select:none;
+  background-color:#CC0000;
+  padding:8px;
+  border-radius: 4px;
+  text-align:center;
+  box-shadow: 0 4px 0 #AA0000;
+  margin-top:10px;
+}
+
+#btn:active{
+  box-shadow:none;
+  margin-top:14px;
 }
