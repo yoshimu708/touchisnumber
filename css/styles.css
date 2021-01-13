@@ -17,7 +17,6 @@ body{
 }
 
 #main{
-  width:500px;
   margin:16px auto;
 }
 
@@ -25,7 +24,8 @@ body{
  background-color: #CC0000;
  font-size: 50px;
  text-align: center;
- margin:10% 0;
+ margin:10% auto;
+ width:30%;
 }
 
 #numbers{
@@ -40,12 +40,12 @@ body{
 
 #numbers li{
   background-color: aquamarine;
-  width:80px;
-  height:80px;
-  margin:8px;
+  width:40px;
+  height:40px;
+  margin:5px;
   cursor: pointer;
   border-radius: 4px;
-  line-height: 80px;
+  line-height: 40px;
   text-align:center;
   box-shadow: 0 4px 0 #0088cc;
 }
@@ -65,7 +65,8 @@ body{
   border-radius: 4px;
   text-align:center;
   box-shadow: 0 4px 0 #AA0000;
-  margin-top:10px;
+  margin:10px auto;
+  width:20%;
 }
 
 #btn:active{
